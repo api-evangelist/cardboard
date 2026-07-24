@@ -1,0 +1,95 @@
+generated: '2026-07-18'
+method: searched
+source: https://usecardboard.com/changelog
+scheme: date-based-semver-preview
+current_version: v0.33
+notes: >-
+  Cardboard publishes a public, dated changelog with weekly product releases.
+  Versions are 0.x preview releases; no breaking-change markers are published
+  (consumer web app, not a versioned API). Recent window captured below.
+entries:
+- version: v0.33
+  date: '2026-07-13'
+  breaking: false
+  highlights:
+  - Keyframes on the timeline
+  - Clip snapping and duplication
+  - Customizable shortcuts with Premiere/DaVinci/FCP/CapCut presets
+  - Gaussian blur effects
+- version: v0.32
+  date: '2026-07-06'
+  breaking: false
+  highlights:
+  - Shareable video links with frame-pinned comments
+  - Word Pop caption style
+  - Improved silence handling
+- version: v0.31
+  date: '2026-06-29'
+  breaking: false
+  highlights:
+  - AI-powered stock footage search
+  - Retro film effects (grain, vignette, scanlines, technicolor)
+  - Audio separation
+- version: v0.30
+  date: '2026-06-22'
+  breaking: false
+  highlights:
+  - Five new fonts
+  - Message queuing in chat
+  - Improved prompt handling
+- version: v0.29
+  date: '2026-06-15'
+  breaking: false
+  highlights:
+  - Multi-clip reframing
+  - Beat-synced editing
+  - Faster timeline performance
+- version: v0.28
+  date: '2026-06-08'
+  breaking: false
+  highlights:
+  - Complete visual redesign
+  - Usage-based pricing starting at $32/month
+  - Unified settings dashboard
+  - Enhanced AI agent
+- version: v0.27
+  date: '2026-06-01'
+  breaking: false
+  highlights:
+  - 8x faster voiceovers
+  - 4x faster imports
+  - Improved auto-framing and speaker-centering reframes
+- version: v0.26
+  date: '2026-05-25'
+  breaking: false
+  highlights:
+  - Faster AI edits
+  - Improved speaker reframes
+  - Clearer media-preparation progress
+- version: v0.25
+  date: '2026-05-18'
+  breaking: false
+  highlights:
+  - Speaker-aware reframing for multi-speaker clips
+  - Faster timeline
+  - Improved export reliability
+- version: v0.24
+  date: '2026-05-11'
+  breaking: false
+  highlights:
+  - Content-based search (speech/objects/scenes)
+  - Media preview insights
+  - Highlight preview before timeline placement
+- version: v0.23
+  date: '2026-05-04'
+  breaking: false
+  highlights:
+  - Smoother auto-reframe tracking
+  - Improved project reopening reliability
+- version: v0.22
+  date: '2026-04-27'
+  breaking: false
+  highlights:
+  - Subscription offer landing page
+  - Faster project opening
+  - Smoother media scrubbing

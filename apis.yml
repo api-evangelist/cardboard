@@ -1,22 +1,77 @@
 aid: cardboard
 name: Cardboard
-description: Cardboard is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Cardboard is an agentic AI video editor that runs entirely in the browser.
+  Users import raw footage and describe the edit in natural language — "make a
+  60-second recap", "cut this into ads" — and Cardboard cuts, captions, reframes
+  (vertical/square/landscape), removes silences, generates and clones voiceovers,
+  translates and dubs across languages, and composes a first draft on a real
+  timeline the user can refine. It is built on multimodal LLMs plus WebGPU/WebCodecs
+  to make a genuine non-linear editor possible in the browser, with real-time
+  collaboration and frame-pinned comments. Cardboard was founded in the Y Combinator
+  Winter 2026 batch and is a consumer/prosumer creative application; it does not
+  currently publish a public developer API.
 url: https://raw.githubusercontent.com/api-evangelist/cardboard/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://usecardboard.com/images/marketing/og-cover.jpg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-yc-batch: W26
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Video Editing
+- Artificial Intelligence
+- Video
+- Creative Tools
+- Media
+- SaaS
+- Browser-Based
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/cardboard-domain-security.yml
+- type: Website
+  url: https://usecardboard.com
+- type: Pricing
+  url: https://usecardboard.com/pricing
+- type: SignUp
+  url: https://usecardboard.com/signup
+- type: Login
+  url: https://usecardboard.com/login
+- type: TermsOfService
+  url: https://usecardboard.com/terms
+- type: PrivacyPolicy
+  url: https://usecardboard.com/privacy
+- type: ChangeLog
+  url: https://usecardboard.com/changelog
+- type: ChangeLog
+  name: Cardboard changelog (harvested)
+  url: changelog/cardboard-changelog.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
