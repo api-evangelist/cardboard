@@ -34,6 +34,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://usecardboard.com', status: 301, note: 'declared website redirects to https://www.cardboard.ai/ — a different registrable domain (usecardboard.com -> cardboard.ai), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://usecardboard.com/images/marketing/og-cover.jpg
 x-type: company
 x-source: vc-portfolio
